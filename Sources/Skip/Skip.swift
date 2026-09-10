@@ -1,4 +1,3 @@
-/// Discards one value while retaining another, independently of parsing.
 @frozen
 public struct Skip<Kept: ~Copyable & ~Escapable, Dropped: ~Copyable & ~Escapable> {
 
